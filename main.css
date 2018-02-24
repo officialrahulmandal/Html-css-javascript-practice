@@ -31,3 +31,17 @@ body{
   padding: 5px;
   font: bold 14px Tahoma;
 }
+#side_news{
+  float:left;
+  width:220px;
+  margin:20px 0px;
+  padding:30px;
+  background: #66CCCC;
+
+}
+#the_footer{
+  clear:both;
+  text-align: center;
+  padding: 20px;
+  border-top:2px solid green;
+}
