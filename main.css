@@ -13,48 +13,37 @@ header,section,footer,aside,nav,article,hgroup{
   display: block;
 }
 body{
-  text-align: center;
+  width: 100%
+  display: webkit-box
+  -webkit-box-pack : centre ;
 }
 #main_header{
-  background: :yellow;
-  border: 1px solid blue;
-  padding:20px
+  max-width: 1000px;
+  margin: 20px 0px;
+  display : -webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-box-flex:1;
 
 }
 #top_menu{
+  border: red;
   background: blue;
-  color: white
+  color : white;
 }
 #top_menu li{
   display: inline-block;
   list-style: none;
   padding: 5px;
-  font: bold 14px Tahoma;
+  font:bold 14px Tahoma;
 }
 #main_section{
-  float: left;
-  width: 860px;
-  margin: 30px;
 }
 #side_news{
-  float:left;
-  width:220px;
-  margin:20px 0px;
-  padding:30px;
-  background: #66CCCC;
 
 }
 #the_footer{
-  clear:both;
-  text-align: center;
-  padding: 20px;
-  border-top:2px solid green;
 }
 article{
-  background: #FFFBCC;
-  border: 1px solid red;
-  padding: 20px;
-  margin-bottom: 15px;
 
 }
 article footer{
