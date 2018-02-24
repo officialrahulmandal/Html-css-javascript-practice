@@ -1,1 +1,4 @@
-p[name*="bucky"]{color:red;}
+h1:nth-child(odd){color:green}
+h2:nth-child(even){color:red}
+p:nth-child(odd){color:blue}
+p:nth-child(even){color:orange}
