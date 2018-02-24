@@ -31,6 +31,11 @@ body{
   padding: 5px;
   font: bold 14px Tahoma;
 }
+#main_section{
+  float: left;
+  width: 860px;
+  margin: 30px;
+}
 #side_news{
   float:left;
   width:220px;
