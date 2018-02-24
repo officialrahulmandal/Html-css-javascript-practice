@@ -13,17 +13,22 @@ header,section,footer,aside,nav,article,hgroup{
   display: block;
 }
 body{
-  width: 100%
-  display: webkit-box
+  width: 100%;
+  display : -webkit-box;
   -webkit-box-pack : centre ;
 }
-#main_header{
-  max-width: 1000px;
+#big_wrapper{
+  max-width: 1300px;
   margin: 20px 0px;
   display : -webkit-box;
   -webkit-box-orient:vertical;
   -webkit-box-flex:1;
 
+}
+#top_headrer{
+  background: yellow;
+  border: 3px solid black;
+  padding: 20px;
 }
 #top_menu{
   border: red;
@@ -37,15 +42,26 @@ body{
   font:bold 14px Tahoma;
 }
 #main_section{
+  border : 1px solid blue;
+  width: 1000px;
+  margin : 20px;
+  padding : 20px;
 }
 #side_news{
 
-}
-#the_footer{
-}
-article{
+  border: 1px solid red;
+  width : 220px;
+  margin: 20px 0px;
+  padding:30px;
+  background: #66CCCC;
 
 }
+#the_footer{
+  text-align: center;
+  padding:20px;
+  border-top:2px solid green;
+}
+
 article footer{
   text-align: right;
 }
