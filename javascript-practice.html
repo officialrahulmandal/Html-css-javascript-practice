@@ -7,13 +7,20 @@
 </head>
 <body >
   <script type="text/javascript">
-    function funky(x){
-    alert("pop up..!!" + x);
-      }
+    var outside =22;
+    function dofirst(){
+      var inside=11;
+      document.write(outside);
+      document.write(inside);
+    }
+    function dosecond(){
+      document.write(outside);
+      //document.write(inside);
+      dofirst();
+
+    }
+    dosecond();
 
   </script>
-<form>
-  <input type="button" value="touch me" onclick="funky(2)">
-</form>
 </body>
 </html>
