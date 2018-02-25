@@ -6,18 +6,14 @@
   <link rel="stylesheet" href="main1.css"
 </head>
 <body >
+  <form name="myform">
+username:<input type="text" name="username"/>
+password:<input type="password" name="password"/>
+  </form>
+
   <script type="text/javascript">
-    var a=5;
-    var s=5;
-    var k=3;
-    if((a==s)&&(a!=k)){
-
-    document.write("yeah it worked"+"<br>")
-    }
-    if((a==s)||(a!=k)){
-
-    document.write("yeah it worked"+"<br>")
-    }
+  var x = document.forms[0].elements[0].name;
+  document.write(x);
 
 
   </script>
